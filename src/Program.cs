@@ -15,7 +15,7 @@ builder.Services
 builder.Services.AddScoped<ChefsRepository, ChefsRepository>();
 
 var app = builder.Build();
-//g
+// this is a new commit
 app.MapGraphQL();
 
 app.Run();
